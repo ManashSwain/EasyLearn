@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Easy Learn-Educational Website using HTML,CSS and JAVASCRIPT</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" type="png" href="./images/audience.png">
+
+    <!-- swiper JS stylesheet  -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+
+    <!-- font awesome script files  -->
+
+    <script
+      src="https://kit.fontawesome.com/fa1c97a57d.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Navbar  -->
+
+    <!-- Navbar Start -->
+
+    <nav class="nav" id="navbar">
+      <div class="nav-left">
+        <a href="#">EASYLEARN</a>
+      </div>
+      <div class="nav-right" id="navitems">
+        <a href="./index.html">Home</a>
+        <a href="./about.html">About</a>
+        <a href="./courses.html">Courses</a>
+        <a href="./contact.html" class="active">Contact</a>
+      </div>
+      <div class="ham" onclick="hamclick()" id="hamicon">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </nav>
+
+    <!-- Navbar end -->
+
+    <!-- Contact Form Section  -->
+
+    <!-- Contact Form Section Start  -->
+
+    <section class="contact-form">
+      <div class="contact-left">
+        <img src="./images/contact.svg" alt="contact-image" />
+        <h2>Contact Us</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit commodi
+          vel minus quia dolorem dolor!
+        </p>
+        <h3><i class="fa-solid fa-mobile-retro"></i>+1234567890</h3>
+        <h3>
+          <i class="fa-sharp fa-solid fa-envelope"></i
+          >easylearn1234@testmail.com
+        </h3>
+        <h3><i class="fa-solid fa-location-dot"></i>Chennai,India</h3>
+      </div>
+      <div class="contact-right">
+        <form action="https://formspree.io/f/mbjewqzv" method="post">
+          <div class="forms">
+            <div>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Enter Your full name here"
+                required
+              />
+            </div>
+            <div>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Enter Your email Id here"
+                required
+              />
+            </div>
+            <div>
+              <textarea
+                name="message"
+                id="message"
+                cols="30"
+                rows="10"
+                placeholder="Write your message here"
+                required
+              ></textarea>
+            </div>
+            <button class="btn">Send Message</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Contact Form Section End-->
+
+    <!-- Footer  -->
+
+    <!-- Footer Start -->
+
+    <footer>
+      <div class="footer-box">
+        <div class="foot">
+          <h3 style="color: #e21818">EASYLEARN</h3>
+        </div>
+        <div class="foot">
+          <h3>Links</h3>
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Courses</a>
+        </div>
+        <div class="foot">
+          <h3>Privacy Policy</h3>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms and Conditions</a>
+          <a href="#">Refund Policy</a>
+        </div>
+        <div class="foot">
+          <h3>Contact Us</h3>
+          <a href="#">+0123456789</a>
+          <a href="#">easylearn1234@testmail.com</a>
+          <a href="#">Fax:+1(111)222-2323</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Footer  end -->
+
+    <!-- Script files  -->
+
+    <script src="./script.js"></script>
+  </body>
+</html>
