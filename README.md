@@ -4,6 +4,8 @@ Learning Website
 
 Welcome to our Learning Website! This project aims to provide a platform for students to explore various courses and connect with expert tutors for personalized learning experiences.
 
+The Project is live at : https://manashswain.github.io/EasyLearn/
+
 Table of Contents
 
     Introduction
@@ -12,7 +14,7 @@ Table of Contents
     Getting Started
     Usage
     Contributing
-    License
+    
 
 Introduction
 
